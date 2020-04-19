@@ -1,0 +1,176 @@
+body{
+    width:95vh;
+    height: 80vh;
+    font-family: "poppins";
+    color:black;
+
+
+}
+#header{
+    z-index: 11;
+    position: absolute;
+    width: 97.8vw;
+    height:2.3vw;
+    background-color: white;
+    border-bottom: 3px solid whitesmoke;
+}
+
+#header>a{
+    z-index: 12;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    text-decoration: none;
+    color: #000;
+}
+#header>a:hover{
+    text-decoration: underline;
+}
+
+
+#k{
+    margin-left: 15vw;
+    margin-right: 20vw;
+    font-weight:normal;
+    color: black;
+}
+#liliane{
+    font-weight: normal;
+
+    color: blue;
+
+}
+
+#content{
+   padding-top: 2.4vw;
+    position: relative;
+    display: flex;
+    width: 97.8vw;
+
+}
+
+#text{
+    margin-left: 5%;
+    margin-top: 15%;
+    width:40%;
+    height: 100%;
+    align-content: center;
+
+
+}
+#text>p{
+    font-weight: bold;
+    font-size: 2vw;
+    text-align: center;
+}
+
+#images{
+
+    margin-right:0;
+    width: 70%;
+    height: 100%;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#images>div{
+    width:30%;
+    height:30vh;
+   /* border: 1px solid black;*/
+    position: relative;
+
+}
+#react{
+    z-index: 7;
+    padding-top: 7%;
+    padding-left: 13%;
+    margin-bottom: 3vw;
+}
+#laravel{
+    z-index: 6;
+    padding-top: 15%;
+    padding-right: 20%;
+    margin-top: -27vw;
+    padding-left: 30vw;
+}
+#node{
+    z-index: 8;
+    padding-top: 25%;
+    padding-right: 30%;
+    margin-top: -18vw;
+    padding-left: 20vw;
+}
+#html{
+    z-index: 5;
+    margin-top: -8vw;
+    padding-top: 5%;
+    padding-left: 13%;
+}
+#php{
+    z-index: 7;
+    padding-top: 15%;
+    padding-right: 0%;
+    margin-top: -37vw;
+    padding-left: 39vw;
+}
+#mysql{
+    z-index: 5;
+    padding-left: 27vw;
+    margin-top: -4vw;
+}
+#css{
+    z-index: 4;
+    padding-left: 20vw;
+    margin-top: -3vw;
+}
+#bulma{
+    z-index: 5;
+    padding-left: 22vw;
+    margin-top: 0vw;
+}
+#js{
+    z-index: 4;
+    padding-left: 38vw;
+    margin-top: -5vw;
+}
+
+#web-dev{
+    font-family: "poppins";
+    text-align: left;
+    font-size: 3vw;
+    font-weight: bold;
+}
+#option{
+    font-family: "poppins";
+    text-align: left;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: -3vw;
+}
+#slogan{
+    margin-top: -2vw;
+}
+#get-started>a{
+    text-decoration: none;
+    color: white;
+}
+#get-started{
+    border:1px solid black;
+    width: 15vw;
+    height: 2.5vw;
+    font-size: 2vw;
+    background-color: blue;
+    font-family: poppins;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10%;
+
+
+}
+
+.title{
+    border: 1px solid black;
+    height:2.3vw;
+    background-color: white;
+    border-bottom: 5px solid whitesmoke;
+    width: 100%;
+}
