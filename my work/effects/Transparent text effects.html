@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>transparent text effects</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+			box-sizing: border-box;
+			/*background-color: black;*/
+		}
+		.box{
+			height: 100vh;
+			background: url("bg2.png");
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		h1{
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			margin: 0;
+			padding: 0;
+			text-align: center;
+			font-size: 10em;
+			color: #fff;
+			text-transform: uppercase;
+			text-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,1);
+			mix-blend-mode: multiply;
+			box-shadow: 0 5px 10px rgba(0,0,0,1);
+			background: rgba(0,0,0,.2);
+		}
+		.paginationContainer{
+			position: absolute;
+			bottom: 0px;
+			left: 50%;
+			width: 500px;
+			height: 50px;
+			transform: translate(-50%,-25%);
+			border-radius: 30px;
+			border: 1px solid black;
+			display: flex;
+			background: #80808052;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: space-around;
+			align-items: stretch;
+			align-content: center;
+			mix-blend-mode: overlay;
+
+
+		}
+		.contents{
+			/*background: blue;*/
+			color: white;
+			font-size: 2em;
+			padding-top: 5px;
+			align-content: center;
+			position: center;
+			text-align: center;
+
+
+		}
+		.contents a{
+			text-decoration: none;
+			color: white;
+		}
+		.contents.active{
+			border-radius: 500px;
+			background: rgba(0,0,200,.5);
+			flex-grow: .1;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="box">
+		<h1>Transparent Text Effects</h1>
+	</div>
+	<div>
+		<circle></circle>
+	</div>
+	<div class="paginationContainer">
+		<div class="contents"> < prev </div>
+		<div class="contents active"><a href="Transparent text effects.html">1</a></div>
+		<div class="contents"><a href="3d marquee text animation.html">2</a></div>
+		<div class="contents"><a href="circles try.html">3</a></div>
+		<div class="contents"><a href="3d rotation animation.html">4</a></div>
+		<div class="contents"><a href="depth of field card hover effects.html">5</a></div>
+		<div class="contents">next ></div>
+	</div>
+</body>
+</html>
